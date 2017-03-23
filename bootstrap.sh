@@ -15,6 +15,6 @@ if [[ $1 == "-d" ]]; then
   while true; do sleep 1000; done
 fi
 
-if [[ $1 == "-bash" ]]; then
+if [[ $1 == "-b" ]]; then
   /bin/bash
 fi

@@ -77,6 +77,6 @@ ADD ./bootstrap.sh /etc/bootstrap.sh
 RUN mkdir /var/lib/mesos
 RUN chown $MESOS_USER_GROUP:$MESOS_USER /var/lib/mesos
 
-CMD ["/etc/bootstrap.sh", "-d"]
+CMD ["/etc/bootstrap.sh", "-b"]
 
 EXPOSE 5050
